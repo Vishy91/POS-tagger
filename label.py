@@ -36,7 +36,7 @@ if len(sys.argv) != 3:
 
 (train_file, test_file) = sys.argv[1:3]
 
-print "Learning model..."
+print "Learning model to understand data..."
 solver = Solver()
 train_data = read_data(train_file)
 solver.train(train_data)
